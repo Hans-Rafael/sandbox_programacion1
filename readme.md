@@ -9,7 +9,7 @@ sandbox_programacion1/
 └── tarea_2.cpp
 ```
 ### Para compilar todo a la vez desde la raiz del proyecto
- **En una linea compila y guarda los archivos en el directorio build y corre todos los archivos que terminan en .cpp`**
+ **Comando en una linea compila y guarda los archivos en el directorio build y corre todos los archivos que terminan en .cpp`**
 * mkdir -p build
 g++ *.cpp -o build/programa
 ./build/programa
@@ -22,4 +22,4 @@ g++ *.cpp -o build/programa
 1. Crear tarea_N.h y tarea_N.cpp siguiendo el mismo patrón. ej. Crear tarea_3.h y tarea_3.cpp
 2. Agregar #include "tarea_N.h" en main.cpp. ej. "tarea_3.h" en main.cpp
 3. Agregar un case 'N': en el switch. ej. Agregar case '3': ejecutarTarea3(); break;
-4. Añadir tarea_N.cpp al comando de compilación. Ej. g++ main.cpp tarea_1.cpp tarea_2.cpp tarea_3.cpp -o build/programa
+4. Compilar
