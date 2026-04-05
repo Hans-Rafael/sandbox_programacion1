@@ -22,4 +22,4 @@ g++ *.cpp -o build/programa
 1. Crear tarea_N.h y tarea_N.cpp siguiendo el mismo patrón. ej. Crear tarea_3.h y tarea_3.cpp
 2. Agregar #include "tarea_N.h" en main.cpp. ej. "tarea_3.h" en main.cpp
 3. Agregar un case 'N': en el switch. ej. Agregar case '3': ejecutarTarea3(); break;
-4. Compilar
+4. Compilar.
