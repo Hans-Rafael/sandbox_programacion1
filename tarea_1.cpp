@@ -111,10 +111,3 @@ void ejecutarTarea1()
     }
 }
 
-// Main de prueba (borrar después)
-
-int main()
-{
-    ejecutarTarea1();
-    return 0;
-}
