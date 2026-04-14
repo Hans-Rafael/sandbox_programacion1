@@ -1,47 +1,26 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "cppbuild",
-			"label": "PROYECTO: Compilar Todo",
-			"command": "/usr/bin/g++",
-			"args": [
-				"-fdiagnostics-color=always",
-				"-g",
-				"${workspaceFolder}/*.cpp",
-				"-o",
-				"${workspaceFolder}/build/programa"
-			],
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"problemMatcher": ["$gcc"],
-			"group": {
-				"kind": "build",
-				"isDefault": true // <--- Esta se lanza con Ctrl+Shift+B
-			},
-			"detail": "Compila todos los .cpp y los guarda en /build"
-		},
-		{
-			"type": "cppbuild",
-			"label": "SOLO UNO: Archivo Activo con g++",
-			"command": "/usr/bin/g++",
-			"args": [
-				"-fdiagnostics-color=always",
-				"-g",
-				"${file}",
-				"-o",
-				"${workspaceFolder}/build/${fileBasenameNoExtension}"
-			],
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"problemMatcher": ["$gcc"],
-			"group": {
-				"kind": "build",
-				"isDefault": false // <--- Esta NO es la principal
-			},
-			"detail": "Compila con g++, solo el archivo abierto y lo guarda en /build"
-		}
-	]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "PROYECTO: Compilar Todo",
+            "command": "g++-13",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "*.cpp", 
+                "-o",
+                "build/programa"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+			"detail": "Compila todos los archivos .cpp de la carpeta"
+        }
+    ]
 }
