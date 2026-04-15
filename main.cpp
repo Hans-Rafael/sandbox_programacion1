@@ -4,7 +4,7 @@
 #include "tarea_2.h"
 #include "tarea_3.h"
 #include "tarea_4.h"
-#include "tarea_5.h"
+// #include "tarea_5.h" // Tarea 5 en progreso, se comenta para evitar errores de compilacion
 using namespace std;
 int main()
 {
@@ -32,9 +32,9 @@ int main()
         case '4':
             ejecutarTarea4();
             break;
-        case '5':
-            ejecutarTarea5();
-            break;
+        // case '5':
+           // ejecutarTarea5();
+           // break;
         case 's':
             cout << "Saliendo...\n";
             return 0;

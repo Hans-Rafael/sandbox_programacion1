@@ -4,5 +4,20 @@ using namespace std;
 
 void ejecutarTarea4()
 {
-    cout << "Tarea 4 en construccion...\n";
+    int temp;
+
+    cout << "Ingrese la temperatura: ";
+    cin >> temp;
+
+    if (temp < 0) {
+        cout << "Bajo cero\n";
+    } else if (temp <= 15) {
+        cout << "Frio\n";
+    } else if (temp <= 25) {
+        cout << "Templado\n";
+    } else if (temp <= 35) {
+        cout << "Caluroso\n";
+    } else {
+        cout << "Muy caluroso\n";
+    }
 }
