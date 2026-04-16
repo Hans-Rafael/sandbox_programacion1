@@ -6,3 +6,10 @@ void ejecutarTarea5()
 {
     cout << "Tarea 5 en construccion...\n";
 }
+// Main de prueba ( IMPORTANTE borrar después)
+/*
+int main() {
+    ejecutarTarea1();
+    return 0;
+}
+*/
