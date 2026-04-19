@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ARCHIVO ACTIVO: Compilar y correr",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "C/C++: g++ build active file"
+        },
+        {
+            "name": "PROYECTO: Compilar y correr todo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/programa",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "PROYECTO: Compilar Todo"
+        }
+    ]
+}
