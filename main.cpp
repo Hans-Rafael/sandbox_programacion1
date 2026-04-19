@@ -4,7 +4,9 @@
 #include "tarea_2.h"
 #include "tarea_3.h"
 #include "tarea_4.h"
-// #include "tarea_5.h" // Tarea 5 en progreso, se comenta para evitar errores de compilacion
+#include "tarea_5.h"
+#include "tarea_6.h"
+#include "tarea_7.h"
 using namespace std;
 int main()
 {
@@ -14,7 +16,7 @@ int main()
 
     while (true)
     {
-        cout << "\n1. Tarea 1 | 2. Tarea 2 | 3. Tarea 3 | 4. Tarea 4 | 5. Tarea 5 | S. Salir\nOpcion: ";
+        cout << "\n1. Tarea 1 | 2. Tarea 2 | 3. Tarea 3 | 4. Tarea 4 | 5. Tarea 5 | 6. Tarea 6 | 7. Tarea 7 | S. Salir\nOpcion: ";
         cin >> opcion;
         opcion = tolower(opcion);
 
@@ -32,9 +34,15 @@ int main()
         case '4':
             ejecutarTarea4();
             break;
-        // case '5':
-           // ejecutarTarea5();
-           // break;
+        case '5':
+            ejecutarTarea5();
+            break;
+        case '6':
+            ejecutarTarea6();
+            break;
+        case '7':
+            ejecutarTarea7();
+            break;
         case 's':
             cout << "Saliendo...\n";
             return 0;

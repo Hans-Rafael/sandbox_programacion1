@@ -4,7 +4,6 @@ using namespace std;
 
 void ejecutarTarea4()
 {
-<<<<<<< Tarea_4
     int temp;
 
     cout << "Ingrese la temperatura: ";
@@ -22,14 +21,10 @@ void ejecutarTarea4()
         cout << "Muy caluroso\n";
     }
 }
-=======
-    cout << "Tarea 4 en construccion...\n";
-}
 // Main de prueba ( IMPORTANTE borrar después)
-/*
-int main() {
-    ejecutarTarea1();
-    return 0;
-}
-*/
->>>>>>> main
+
+// int main() {
+//     ejecutarTarea4();
+//     return 0;
+// }
+
